@@ -151,7 +151,7 @@ export default function JournalList() {
 
       {/* Clear Filter Button */}
       <TouchableOpacity onPress={clearIntensityFilter}>
-        <Text style={styles.clearButtonText}>Clear filters</Text>
+        <Text style={styles.clearButtonText}>Clear intensity filters</Text>
       </TouchableOpacity>
 
       {/* Loading, Error, and Entries */}
