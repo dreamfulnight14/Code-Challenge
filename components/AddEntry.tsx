@@ -60,7 +60,7 @@ export default function AddEntry() {
         multiline
         value={content}
         onChangeText={setContent}
-        numberOfLines={4}
+        numberOfLines={6}
         textAlignVertical="top"
       />
 
@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   input: {
-    height: 150,
+    height: 140,
     borderColor: "#ccc",
     borderWidth: 1,
     borderRadius: 8,
